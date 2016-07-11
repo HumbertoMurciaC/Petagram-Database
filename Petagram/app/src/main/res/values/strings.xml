@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="Titulo">Petagram</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Numero_Likes">#</string>
+    <string name="contacto">Contacto</string>
+    <string name="AcercaD">Acerca De</string>
+    <string name="nombre">Humberto M Murcia</string>
+    <string name="fecha">Fecha Nacimiento:</string>
+    <string name="fechaNacimiento">12/11/1992</string>
+    <string name="Descripcion">Descripción:</string>
+    <string name="correo2">Email:</string>
+    <string name="telefono2">Tel:</string>
+    <string name="telefono">34245435345</string>
+    <string name="correo">humbertomm@hotmail.com</string>
+    <string name="correo1">Email</string>
+    <string name="D_contacto">Desarrollador Colombiano, nacido en Bogota estudiante de Ingenieria de Sistemas
+    de la Pontificia Universidad Javeriana.</string>
+    <string name="form_username">Nombre completo</string>
+</resources>

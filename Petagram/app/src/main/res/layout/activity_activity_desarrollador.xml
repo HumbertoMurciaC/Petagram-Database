@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Activities.ActivityDesarrollador">
+
+    <include android:id="@id/action_bar2"
+        layout="@layout/actionbar">
+    </include>
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:id="@+id/Titulo"
+        android:layout_below="@id/action_bar2"
+        android:layout_marginTop="@dimen/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Titulo"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="Datos Desarrollador"
+        />
+
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/Titulo"
+        android:textStyle="bold"
+        android:id="@+id/TvNombre"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/nombre"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <LinearLayout
+        android:id="@+id/Ln_Layout"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/TvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:id="@+id/Tvfe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/fecha"
+            android:textColor="@color/black"
+            android:textSize="@dimen/Tam_texto"
+            android:layout_gravity="center_vertical"
+            />
+
+
+
+        <TextView
+            android:id="@+id/TvFECHA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fechaNacimiento"
+            android:layout_marginLeft="@dimen/Margen"
+            android:textSize="@dimen/Tam_texto"
+            android:layout_gravity="center_vertical"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:id="@+id/Ln_Layout2"
+        android:layout_below="@id/Ln_Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:id="@+id/TvTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono2"
+            android:textSize="@dimen/Tam_texto"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/TvTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:layout_marginLeft="@dimen/Margen"
+            android:textSize="@dimen/Tam_texto"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ln_Layout3"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/Ln_Layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:id="@+id/TvCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/correo2"
+            android:textSize="@dimen/Tam_texto"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/TvMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/correo"
+            android:layout_marginLeft="@dimen/Margen"
+            android:textSize="@dimen/Tam_texto"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/Ln_Layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top">
+
+        <TextView
+            android:id="@+id/TvDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Descripcion"
+            android:textSize="@dimen/Tam_texto"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/TvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/D_contacto"
+            android:layout_marginLeft="@dimen/Margen"
+            android:textSize="@dimen/Tam_texto"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
